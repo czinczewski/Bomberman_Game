@@ -1,3 +1,17 @@
+#bomberman na kwadratach - nie wolno używać pygame
+#1. Mechanika -
+    # implementacja planszy(zniszczalne i niezniszczalne elementy),
+    # przeciwnicy(bez inteligencji(pion/poziom)), nie ma bomb
+    # agent(bomby o roznym zakresie 1 - 5 pól)
+    # rozgrywaka na konsoli
+    # obsluga klawiatury
+    # generowanie mapy
+#2. GUI - Qt
+#3. XML (plansza, zapis i odtworzenie historii) - przyzwoita jakość
+#4. AI (silnik przechodzący gre)
+# import skfuzzy as fuzzy
+#5. TCP/IP (działanie synchorniczne)
+
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -29,7 +43,7 @@ class Bomberman(QMainWindow):
 
         self.margin = 0
         self.drawer = objects.DrawBorad(self.height(), self.width(), self, self.margin, self.board.get_all())
-        # self.saver = history.Writer()
+        self.saver = history.Writer()
         self.initUi()
 
     def initUi(self):
@@ -65,7 +79,8 @@ class Bomberman(QMainWindow):
                             self.board.set_cell(x_vec[k], y_vec[k], 0)
                             break
                 elif val == 5:
-                    sys.exit()
+                    self.saver.save()
+                    exit()
                     break
 
     def bot_direction(self):
@@ -133,19 +148,19 @@ class Bomberman(QMainWindow):
 
     def keyPressEvent(self, event):
         key = event.key()
-        if key == Qt.Key_Left or key == Qt.Key_A:
+        if key == Qt.Key_Left:
             self.bots[0].set_move(4)
             self.Move(0)
             self.repaint()
-        elif key == Qt.Key_Right or key == Qt.Key_D:
+        elif key == Qt.Key_Right:
             self.bots[0].set_move(3)
             self.Move(0)
             self.repaint()
-        elif key == Qt.Key_Down or key == Qt.Key_S:
+        elif key == Qt.Key_Down:
             self.bots[0].set_move(1)
             self.Move(0)
             self.repaint()
-        elif key == Qt.Key_Up or key == Qt.Key_W:
+        elif key == Qt.Key_Up:
             self.bots[0].set_move(2)
             self.Move(0)
             self.repaint()
@@ -189,17 +204,23 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
+        elif key == Qt.Key_A: #tryb auto
+
+            self.repaint()
+        elif key == Qt.Key_S:  # odtwórz
+
+            self.repaint()
         else:
             super(Bomberman, self).keyPressEvent(event)
 
     def timerEvent(self, event):
+        self.saver.auto_save(self.bots, self.bomb)
         if self.bomb.counter > 0:
             if event.timerId() == self.bomb.bombs_timer_tab[0].timerId():
                 self.board.set_cell(self.bomb.get_x(0), self.bomb.get_y(0), 6)
                 self.repaint()
                 self.board.set_cell(self.bomb.get_x(0), self.bomb.get_y(0), 0)
                 self.explosion()
-                # self.repaint()
                 self.bomb.counter -= 1
                 self.bomb.explosion()
 
@@ -210,8 +231,6 @@ class Bomberman(QMainWindow):
             self.repaint()
         else:
             super(Bomberman, self).timerEvent(event)
-
-            # self.saver.zapis_stanu(self.bots)
 
     def paintEvent(self, event):
         self.drawer.draw()

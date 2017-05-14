@@ -43,8 +43,8 @@ class Bomb:
         self.x = []
         self.y = []
         self.field = []
-        self.explode_time = 5
-        self.bomb_speed = 4000
+        self.explode_time = 4
+        self.bomb_speed = 1000 * self.explode_time
         self.bombs_timer_tab = []
         self.counter = 0
 
@@ -67,6 +67,9 @@ class Bomb:
 
     def get_field(self, i):
         return self.field[i]
+
+    def get_time(self, i):
+        return self.bombs_timer_tab[i].isActive()
 
     def explosion(self):
         self.x = self.x[1:]
