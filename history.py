@@ -55,8 +55,6 @@ class Writer:
         self.root.appendChild(nowy_stan)
 
     def save(self):
-        # print("Zapisuje")
         self.doc.writexml(open('data.xml', 'w'), indent="  ", addindent="  ", newl='\n')
         self.doc.unlink()
 
-    def read(self):

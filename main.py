@@ -1,15 +1,8 @@
-#bomberman na kwadratach - nie wolno używać pygame
-#1. Mechanika -
-    # implementacja planszy(zniszczalne i niezniszczalne elementy),
-    # przeciwnicy(bez inteligencji(pion/poziom)), nie ma bomb
-    # agent(bomby o roznym zakresie 1 - 5 pól)
-    # rozgrywaka na konsoli
-    # obsluga klawiatury
-    # generowanie mapy
+#Bomberman
+#1. Mechanika
 #2. GUI - Qt
-#3. XML (plansza, zapis i odtworzenie historii) - przyzwoita jakość
-#4. AI (silnik przechodzący gre)
-# import skfuzzy as fuzzy
+#3. XML
+#4. AI
 #5. TCP/IP (działanie synchorniczne)
 
 from PyQt5.QtCore import *
@@ -39,6 +32,9 @@ class Bomberman(QMainWindow):
             self.board.set_cell(self.bots[i].get_x(), self.bots[i].get_y(), 4)
 
         self.timer = QBasicTimer()
+        self.auto = False
+        self.play = False
+        self.autopilot = objects.AutoPlayer()
         self.bomb = objects.Bomb(self)
 
         self.margin = 0
@@ -148,23 +144,27 @@ class Bomberman(QMainWindow):
 
     def keyPressEvent(self, event):
         key = event.key()
-        if key == Qt.Key_Left:
+        if key == Qt.Key_Left and not self.auto:
             self.bots[0].set_move(4)
             self.Move(0)
+            print("X:", self.bots[0].get_x(), "Y:", self.bots[0].get_y())
             self.repaint()
-        elif key == Qt.Key_Right:
+        elif key == Qt.Key_Right and not self.auto:
             self.bots[0].set_move(3)
             self.Move(0)
+            print("X:", self.bots[0].get_x(), "Y:", self.bots[0].get_y())
             self.repaint()
-        elif key == Qt.Key_Down:
+        elif key == Qt.Key_Down and not self.auto:
             self.bots[0].set_move(1)
             self.Move(0)
+            print("X:", self.bots[0].get_x(), "Y:", self.bots[0].get_y())
             self.repaint()
-        elif key == Qt.Key_Up:
+        elif key == Qt.Key_Up and not self.auto:
             self.bots[0].set_move(2)
             self.Move(0)
+            print("X:", self.bots[0].get_x(), "Y:", self.bots[0].get_y())
             self.repaint()
-        elif key == Qt.Key_1:
+        elif key == Qt.Key_1 and not self.auto:
             x_b = self.bots[0].get_x()
             y_b = self.bots[0].get_y()
             self.bomb.add_bomb(x_b, y_b, 1)
@@ -172,7 +172,7 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
-        elif key == Qt.Key_2:
+        elif key == Qt.Key_2 and not self.auto:
             x_b = self.bots[0].get_x()
             y_b = self.bots[0].get_y()
             self.bomb.add_bomb(x_b, y_b, 2)
@@ -180,7 +180,7 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
-        elif key == Qt.Key_3:
+        elif key == Qt.Key_3 and not self.auto:
             x_b = self.bots[0].get_x()
             y_b = self.bots[0].get_y()
             self.bomb.add_bomb(x_b, y_b, 3)
@@ -188,7 +188,7 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
-        elif key == Qt.Key_4:
+        elif key == Qt.Key_4 and not self.auto:
             x_b = self.bots[0].get_x()
             y_b = self.bots[0].get_y()
             self.bomb.add_bomb(x_b, y_b, 4)
@@ -196,7 +196,7 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
-        elif key == Qt.Key_5:
+        elif key == Qt.Key_5 and not self.auto:
             x_b = self.bots[0].get_x()
             y_b = self.bots[0].get_y()
             self.bomb.add_bomb(x_b, y_b, 5)
@@ -204,17 +204,45 @@ class Bomberman(QMainWindow):
             self.bomb.counter += 1
             self.bomb.new_bomb = True
             self.repaint()
-        elif key == Qt.Key_A: #tryb auto
-
+        elif key == Qt.Key_A : #tryb auto
+            if not self.auto and not self.play:
+                self.auto = True
+                print("Start Autopilot")
+            else:
+                self.auto = False
+                print("Stop Autopilot")
             self.repaint()
-        elif key == Qt.Key_S:  # odtwórz
-
+        elif key == Qt.Key_P:  # odtwórz
+            if not self.play and not self.auto:
+                self.play = True
+                print("Start odtwarzania")
+            else:
+                self.play = False
+                print("Stop odtwarzania")
             self.repaint()
         else:
             super(Bomberman, self).keyPressEvent(event)
 
     def timerEvent(self, event):
         self.saver.auto_save(self.bots, self.bomb)
+        if event.timerId() == self.timer.timerId():
+            for i in range(1, len(self.bots)):
+                if self.auto and not self.play:
+                    self.bots, self.board, self.bomb = self.autopilot.sterowanie(self.bots, self.board, self.bomb)
+                    self.Move(0)
+                    self.repaint()
+                    self.bot_direction()
+                    self.Move(i)
+                    self.repaint()
+                if not self.auto and not self.play:
+                    self.bot_direction()
+                    self.Move(i)
+                    self.repaint()
+                if self.play and not self.auto:
+                    print("Odtwarzam")
+        else:
+            super(Bomberman, self).timerEvent(event)
+
         if self.bomb.counter > 0:
             if event.timerId() == self.bomb.bombs_timer_tab[0].timerId():
                 self.board.set_cell(self.bomb.get_x(0), self.bomb.get_y(0), 6)
@@ -223,14 +251,6 @@ class Bomberman(QMainWindow):
                 self.explosion()
                 self.bomb.counter -= 1
                 self.bomb.explosion()
-
-        if event.timerId() == self.timer.timerId():
-            for i in range(1, len(self.bots)):
-                self.bot_direction()
-                self.Move(i)
-            self.repaint()
-        else:
-            super(Bomberman, self).timerEvent(event)
 
     def paintEvent(self, event):
         self.drawer.draw()

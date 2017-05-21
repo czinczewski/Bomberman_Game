@@ -20,7 +20,7 @@
     </stan>
     <stan>
       <bot index="0">
-        <X>3</X>
+        <X>1</X>
         <Y>3</Y>
       </bot>
       <bot index="1">
@@ -28,18 +28,46 @@
         <Y>36</Y>
       </bot>
       <bot index="2">
-        <X>36</X>
-        <Y>3</Y>
+        <X>37</X>
+        <Y>2</Y>
       </bot>
       <bot index="3">
-        <X>35</X>
+        <X>37</X>
         <Y>36</Y>
       </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>3</Y>
+        <zasieg>5</zasieg>
+      </bomb>
     </stan>
     <stan>
       <bot index="0">
         <X>2</X>
-        <Y>1</Y>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>3</Y>
+        <zasieg>5</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>2</Y>
       </bot>
       <bot index="1">
         <X>1</X>
@@ -47,50 +75,22 @@
       </bot>
       <bot index="2">
         <X>36</X>
-        <Y>2</Y>
+        <Y>1</Y>
       </bot>
       <bot index="3">
-        <X>35</X>
-        <Y>37</Y>
-      </bot>
-      <bomb index="0">
-        <X>3</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-    </stan>
-    <stan>
-      <bot index="0">
-        <X>1</X>
-        <Y>2</Y>
-      </bot>
-      <bot index="1">
-        <X>1</X>
-        <Y>35</Y>
-      </bot>
-      <bot index="2">
         <X>36</X>
-        <Y>1</Y>
-      </bot>
-      <bot index="3">
-        <X>35</X>
-        <Y>37</Y>
+        <Y>36</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
+        <X>1</X>
         <Y>3</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
-        <X>3</X>
-        <Y>1</Y>
         <zasieg>5</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>1</X>
-        <Y>1</Y>
+        <X>2</X>
+        <Y>2</Y>
       </bot>
       <bot index="1">
         <X>1</X>
@@ -105,16 +105,6 @@
         <Y>36</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
-        <X>3</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="2">
         <X>1</X>
         <Y>3</Y>
         <zasieg>5</zasieg>
@@ -131,23 +121,13 @@
       </bot>
       <bot index="2">
         <X>35</X>
-        <Y>1</Y>
+        <Y>2</Y>
       </bot>
       <bot index="3">
         <X>35</X>
-        <Y>35</Y>
+        <Y>37</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
-        <X>3</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="2">
         <X>1</X>
         <Y>3</Y>
         <zasieg>5</zasieg>
@@ -160,10 +140,64 @@
       </bot>
       <bot index="1">
         <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
         <Y>36</Y>
       </bot>
       <bot index="2">
-        <X>36</X>
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
         <Y>1</Y>
       </bot>
       <bot index="3">
@@ -171,24 +205,14 @@
         <Y>35</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
-        <X>3</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="2">
         <X>1</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
+        <Y>8</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>2</X>
+        <X>1</X>
         <Y>2</Y>
       </bot>
       <bot index="1">
@@ -196,28 +220,46 @@
         <Y>36</Y>
       </bot>
       <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>8</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
         <X>36</X>
         <Y>1</Y>
       </bot>
       <bot index="3">
         <X>35</X>
-        <Y>35</Y>
+        <Y>37</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
         <X>1</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
+        <Y>8</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>2</X>
-        <Y>2</Y>
+        <X>1</X>
+        <Y>5</Y>
       </bot>
       <bot index="1">
         <X>1</X>
@@ -229,26 +271,1228 @@
       </bot>
       <bot index="3">
         <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>8</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
         <Y>36</Y>
       </bot>
       <bomb index="0">
-        <X>3</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
-      </bomb>
-      <bomb index="1">
         <X>1</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
         <Y>3</Y>
-        <zasieg>5</zasieg>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>10</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
         <X>2</X>
-        <Y>2</Y>
+        <Y>9</Y>
       </bot>
       <bot index="1">
         <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>10</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>10</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>10</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>9</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>4</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>12</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>12</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>12</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>12</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>4</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>11</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>4</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
         <Y>35</Y>
       </bot>
       <bot index="2">
@@ -261,18 +1505,825 @@
       </bot>
       <bomb index="0">
         <X>1</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
+        <Y>14</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
         <X>2</X>
-        <Y>2</Y>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>14</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>14</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>14</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>3</Y>
       </bot>
       <bot index="1">
         <X>1</X>
         <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>13</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>4</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>4</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>16</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>16</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>16</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>16</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>15</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>5</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
       </bot>
       <bot index="2">
         <X>36</X>
@@ -284,22 +2335,122 @@
       </bot>
       <bomb index="0">
         <X>1</X>
-        <Y>3</Y>
-        <zasieg>5</zasieg>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>2</X>
-        <Y>2</Y>
+        <X>1</X>
+        <Y>9</Y>
       </bot>
       <bot index="1">
-        <X>1</X>
-        <Y>35</Y>
+        <X>2</X>
+        <Y>37</Y>
       </bot>
       <bot index="2">
         <X>36</X>
         <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>6</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
       </bot>
       <bot index="3">
         <X>35</X>
@@ -308,11 +2459,390 @@
     </stan>
     <stan>
       <bot index="0">
-        <X>4</X>
-        <Y>1</Y>
+        <X>1</X>
+        <Y>18</Y>
       </bot>
       <bot index="1">
         <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>18</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>18</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>18</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>18</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>17</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>7</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
         <Y>36</Y>
       </bot>
       <bot index="2">
@@ -320,14 +2850,1377 @@
         <Y>1</Y>
       </bot>
       <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
         <X>36</X>
         <Y>37</Y>
       </bot>
     </stan>
     <stan>
       <bot index="0">
-        <X>7</X>
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
         <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>20</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>20</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>20</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>20</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>19</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>9</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>22</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>22</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>22</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>22</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>21</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>8</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>11</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>24</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>24</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>24</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>24</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>23</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>10</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>13</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
       </bot>
       <bot index="1">
         <X>1</X>
@@ -339,17 +4232,883 @@
       </bot>
       <bot index="3">
         <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
         <Y>37</Y>
       </bot>
     </stan>
     <stan>
       <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
         <X>3</X>
-        <Y>1</Y>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>26</Y>
       </bot>
       <bot index="1">
         <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>26</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>26</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>26</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>26</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
         <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>25</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>12</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>15</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>16</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>28</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>28</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>28</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>28</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>28</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>26</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
       </bot>
       <bot index="2">
         <X>35</X>
@@ -360,18 +5119,805 @@
         <Y>37</Y>
       </bot>
       <bomb index="0">
-        <X>7</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
+        <X>2</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>4</X>
-        <Y>1</Y>
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>27</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>14</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>17</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>26</Y>
       </bot>
       <bot index="1">
         <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>18</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>30</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>30</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>30</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>30</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>30</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>28</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>29</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>19</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>28</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>26</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
         <Y>37</Y>
       </bot>
       <bot index="2">
@@ -383,19 +5929,19 @@
         <Y>37</Y>
       </bot>
       <bomb index="0">
-        <X>7</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
+        <X>1</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>4</X>
-        <Y>1</Y>
+        <X>1</X>
+        <Y>20</Y>
       </bot>
       <bot index="1">
         <X>3</X>
-        <Y>37</Y>
+        <Y>36</Y>
       </bot>
       <bot index="2">
         <X>35</X>
@@ -406,55 +5952,1157 @@
         <Y>37</Y>
       </bot>
       <bomb index="0">
-        <X>7</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
+        <X>1</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>4</X>
+        <X>1</X>
+        <Y>20</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>23</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
         <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>26</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>29</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>32</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>32</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>32</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>32</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>32</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>30</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>31</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>21</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>24</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>27</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>30</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>33</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>31</Y>
       </bot>
       <bot index="1">
         <X>2</X>
         <Y>37</Y>
       </bot>
       <bot index="2">
-        <X>35</X>
-        <Y>3</Y>
+        <X>36</X>
+        <Y>2</Y>
       </bot>
       <bot index="3">
-        <X>35</X>
-        <Y>37</Y>
+        <X>36</X>
+        <Y>35</Y>
       </bot>
       <bomb index="0">
-        <X>7</X>
-        <Y>1</Y>
-        <zasieg>5</zasieg>
+        <X>1</X>
+        <Y>33</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
     <stan>
       <bot index="0">
-        <X>4</X>
+        <X>1</X>
+        <Y>28</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>33</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
+      </bot>
+      <bot index="1">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
         <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>33</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>1</X>
+        <Y>33</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>22</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>25</Y>
       </bot>
       <bot index="1">
         <X>2</X>
         <Y>36</Y>
       </bot>
       <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
         <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>28</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
         <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>31</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>34</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
       </bot>
       <bot index="3">
         <X>35</X>
         <Y>36</Y>
       </bot>
       <bomb index="0">
-        <X>7</X>
+        <X>2</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
         <Y>1</Y>
-        <zasieg>5</zasieg>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>36</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="3">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="3">
+        <X>36</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="3">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>2</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>1</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>2</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>2</Y>
+      </bot>
+      <bot index="2">
+        <X>35</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>35</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>1</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>35</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>37</Y>
+      </bot>
+      <bot index="1">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>37</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>37</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>35</Y>
+      </bot>
+      <bot index="1">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>36</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>37</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>34</Y>
+      </bot>
+      <bot index="1">
+        <X>37</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>37</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>37</Y>
+        <zasieg>1</zasieg>
+      </bomb>
+    </stan>
+    <stan>
+      <bot index="0">
+        <X>3</X>
+        <Y>36</Y>
+      </bot>
+      <bot index="1">
+        <X>36</X>
+        <Y>3</Y>
+      </bot>
+      <bot index="2">
+        <X>36</X>
+        <Y>35</Y>
+      </bot>
+      <bomb index="0">
+        <X>3</X>
+        <Y>37</Y>
+        <zasieg>1</zasieg>
       </bomb>
     </stan>
   </Game>

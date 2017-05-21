@@ -1,4 +1,5 @@
 import numpy as np
+import math
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 
@@ -176,3 +177,195 @@ class DrawBorad:
                     paint.setBrush(Qt.yellow)
                     paint.drawRect(self.x + 15 * i, self.y + 15 * j, self.x + 15, self.y + 15)
         paint.end()
+
+
+class AutoPlayer:
+    def sterowanie(self, bots, board, bomb):
+        x = bots[0].get_x()
+        y = bots[0].get_y()
+        # print("SI, x:", x, "y:", y)
+
+        x_min_distance = 40
+        y_min_distance = 40
+        min_distance = math.sqrt((40**2) + (40**2))
+        target = 0
+
+        #szukam najbliższego
+        for i in range(1, 3):
+            distance_x = abs(bots[i].get_x() - x)
+            distance_y = abs(bots[i].get_y() - y)
+            if min_distance > math.sqrt((distance_x**2) + (distance_y**2)):
+                min_distance = math.sqrt((distance_x**2) + (distance_y**2))
+                x_min_distance = distance_x
+                y_min_distance = distance_y
+                target = i
+
+        # print("B: ", target, "X:", x, "Xb", bots[target].get_x(), "Y:", y, "Yb", bots[target].get_y(),
+        #       "x(min): ", x_min_distance, " y(min): ", y_min_distance, "vec(min): ", min_distance)
+
+        if bomb.counter > 0:  # uciekanie od postawionej bomby
+            if board.get_cell(x - 1, y) == 3:
+                print("Bomba w gore - Uciekam z x:", x, "y:", y)
+                if board.get_cell(x + 1, y) == 0:
+                    bots[0].set_move(1)
+                    print("Ide w dol")
+                elif board.get_cell(x, y - 1) == 0:
+                    bots[0].set_move(4)
+                    print("Ide w lewo")
+                elif board.get_cell(x, y + 1) == 0:
+                    bots[0].set_move(3)
+                    print("Ide w prawo")
+            elif board.get_cell(x + 1, y) == 3:
+                print("Bomba w dol - Uciekam z x:", x, "y:", y)
+                if board.get_cell(x - 1, y) == 0:
+                    bots[0].set_move(2)
+                    print("Ide w gore")
+                elif board.get_cell(x, y - 1) == 0:
+                    bots[0].set_move(4)
+                    print("Ide w lewo")
+                elif board.get_cell(x, y + 1) == 0:
+                    bots[0].set_move(3)
+                    print("Ide w prawo")
+            elif board.get_cell(x, y - 1) == 3:
+                print("Bomba na lewo - Uciekam z x:", x, "y:", y)
+                if board.get_cell(x + 1, y) == 0:
+                    bots[0].set_move(1)
+                    print("Ide w dol")
+                elif board.get_cell(x - 1, y) == 0:
+                    bots[0].set_move(2)
+                    print("Ide w gore")
+                elif board.get_cell(x, y + 1) == 0:
+                    bots[0].set_move(3)
+                    print("Ide w prawo")
+            elif board.get_cell(x, y + 1) == 3:
+                print("Bomba na prawo - Uciekam z x:", x, "y:", y)
+                if board.get_cell(x + 1, y) == 0:
+                    bots[0].set_move(1)
+                    print("Ide w dol")
+                elif board.get_cell(x, y - 1) == 0:
+                    bots[0].set_move(4)
+                    print("Ide w lewo")
+                elif board.get_cell(x - 1, y) == 0:
+                    bots[0].set_move(2)
+                    print("Ide w gore")
+            else:
+                print("Czekam na pozycji: x:", x, "y:", y)
+        elif bomb.counter == 0:
+            if x_min_distance <= y_min_distance:    #cel blizej w pionie
+                print("Cel blizej w pionie")
+                if y <= bots[target].get_y():
+                    print("Cel na prawo")
+                    if board.get_cell(x, y + 1) == 0:
+                        bots[0].set_move(3)
+                    elif board.get_cell(x, y + 1) == 1:
+                        if x <= bots[target].get_x():   # dol
+                            print("Gora")
+                            if board.get_cell(x + 1, y) == 0:
+                                bots[0].set_move(1)
+                            elif board.get_cell(x + 1, y) == 2 or board.get_cell(x + 1, y) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                        else:                           # gora
+                            print("Dol")
+                            if board.get_cell(x - 1, y) == 0:
+                                bots[0].set_move(1)
+                            elif board.get_cell(x - 1, y) == 2 or board.get_cell(x - 1, y) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                    elif board.get_cell(x, y + 1) == 2 or board.get_cell(x, y + 1) == 4:
+                        bomb.add_bomb(x, y, 1)
+                        board.set_cell(x, y, 3)
+                        bomb.counter += 1
+                        bomb.new_bomb = True
+                elif y > bots[target].get_y():
+                    print("Cel na lewo")
+                    if board.get_cell(x, y - 1) == 0:
+                        bots[0].set_move(4)
+                    elif board.get_cell(x, y - 1) == 1:
+                        if x <= bots[target].get_x():   # dol
+                            print("Dol")
+                            if board.get_cell(x + 1, y) == 0:
+                                bots[0].set_move(1)
+                            elif board.get_cell(x + 1, y) == 2 or board.get_cell(x + 1, y) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                        else:                           # gora
+                            print("Gora")
+                            if board.get_cell(x - 1, y) == 0:
+                                bots[0].set_move(1)
+                            elif board.get_cell(x - 1, y) == 2 or board.get_cell(x - 1, y) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                    elif board.get_cell(x, y - 1) == 2 or board.get_cell(x, y - 1) == 4:
+                        bomb.add_bomb(x, y, 1)
+                        board.set_cell(x, y, 3)
+                        bomb.counter += 1
+                        bomb.new_bomb = True
+            elif x_min_distance > y_min_distance:
+                print("Cel blizej w poziomie")
+                if x <= bots[target].get_x():
+                    print("Cel w dol")
+                    if board.get_cell(x + 1, y) == 0:
+                        bots[0].set_move(1)
+                    elif board.get_cell(x + 1, y) == 1:
+                        if y <= bots[target].get_y():   # prawo
+                            print("Prawo")
+                            if board.get_cell(x, y + 1) == 0:
+                                bots[0].set_move(3)
+                            elif board.get_cell(x, y + 1) == 2 or board.get_cell(x, y + 1) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                        else:                           # lewo
+                            print("Lewo")
+                            if board.get_cell(x, y - 1) == 0:
+                                bots[0].set_move(4)
+                            elif board.get_cell(x, y - 1) == 2 or board.get_cell(x, y - 1) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                    elif board.get_cell(x + 1, y) == 2 or board.get_cell(x + 1, y) == 4:
+                        bomb.add_bomb(x, y, 1)
+                        board.set_cell(x, y, 3)
+                        bomb.counter += 1
+                        bomb.new_bomb = True
+                elif x > bots[target].get_x():
+                    print("Cel w gore")
+                    if board.get_cell(x - 1, y) == 0:
+                        bots[0].set_move(2)
+                    elif board.get_cell(x - 1, y) == 1:
+                        if y <= bots[target].get_y():  # prawo
+                            print("Prawo")
+                            if board.get_cell(x, y + 1) == 0:
+                                bots[0].set_move(3)
+                            elif board.get_cell(x, y + 1) == 2 or board.get_cell(x, y + 1) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                        else:  # lewo
+                            print("Lewo")
+                            if board.get_cell(x, y - 1) == 0:
+                                bots[0].set_move(4)
+                            elif board.get_cell(x, y - 1) == 2 or board.get_cell(x, y - 1) == 4:
+                                bomb.add_bomb(x, y, 1)
+                                board.set_cell(x, y, 3)
+                                bomb.counter += 1
+                                bomb.new_bomb = True
+                    elif board.get_cell(x - 1, y) == 2 or board.get_cell(x - 1, y) == 4:
+                        bomb.add_bomb(x, y, 1)
+                        board.set_cell(x, y, 3)
+                        bomb.counter += 1
+                        bomb.new_bomb = True
+
+        return bots, board, bomb
